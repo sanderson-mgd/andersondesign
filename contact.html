@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="description" content="Want to work with Anderson Design? Contact us through the information provided, or by subitting your name and email through our form.">
+<meta name="keywords" content="graphic design business, brand design, illustration design">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Contact - Anderson Design</title>
 <link href="styles/normalize.css" rel="stylesheet" type="text/css">
@@ -14,7 +16,9 @@
 <body>
 <div id="wrapper">
     <header>
-        <a href="index.html"><img src="images/complete-logo-01.png" alt="Anderson Design logo"></a>
+        <div class="centered_content_box">
+            <a href="index.html"><img src="images/complete-logo-01.png" alt="Anderson Design logo"></a>
+        </div>
     </header>
     <nav>
         <ul>
@@ -30,40 +34,49 @@
     <main class="main_with_aside">
         <h1>Contact Us!</h1>
         <p>Want to work with me? Find my contact information here!</p>
-        <table>
-            <tr>
-              <th colspan="2">Contact Information</th>
-            </tr>
-            <tr>
-              <td>Email</td>
-              <td>anemail@here.com</td>
-            </tr>
-            <tr>
-              <td>Phone Number</td>
-              <td>123-456-7890</td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td>5555 Address St. - City, ST 66666</td>
-            </tr>
-        </table>
-        <form method="post" action="scripts/welcome.php">
-            Name: <input type="text" name="name"><br>
-            E-mail: <input type="text" name="email"><br>
-            <input type="submit">
-        </form>
+        <div class="centered_content_box">
+            <table>
+                <tr>
+                <th colspan="2">Contact Information</th>
+                </tr>
+                <tr>
+                <td>Email</td>
+                <td>anemail@here.com</td>
+                </tr>
+                <tr>
+                <td>Phone Number</td>
+                <td>123-456-7890</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>5555 Address St. - City, ST 66666</td>
+                </tr>
+            </table>
+            <form name="contactFnetlify" data-netlify="true" action="success.html" method="post" enctype="multipart/form-data">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="notes">Notes:</label>
+                <input type="text" id="notes" name="notes"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </main>
 
     <aside>
+        <div class="blob"><h2>Hello!</h2></div>
         <h2>Want To Give Extra Support?</h2>
         <p>Make a donation today:</p>
-        <p><a href="#" class="button">Donate Now!</a></p>
+        <h4><a href="#" class="button">Donate Now!</a></h4>
     </aside>
 
     <div class="clearfix"></div>
 
     <footer>
-        <p>2024 Copyright, Anderson Design | <a href="contact.html">Contact Me</a></p>
+        <div class="centered_content_box">
+            <p>2024 Copyright, Anderson Design | <a href="contact.html">Contact Me</a></p>
+        </div>
     </footer>
 </div>
 </body>

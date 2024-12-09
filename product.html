@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="description" content="Anderson Design's product page, with many shoppable items. Currently has merchandise displaying thr Anderson Design logo!">
+<meta name="keywords" content="graphic design business, brand design, illustration design">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Products - Anderson Design</title>
 <link href="styles/normalize.css" rel="stylesheet" type="text/css">
@@ -14,7 +16,9 @@
 <body>
 <div id="wrapper">
     <header>
-        <a href="index.html"><img src="images/complete-logo-01.png" alt="Anderson Design logo"></a>
+        <div class="centered_content_box">
+            <a href="index.html"><img src="images/complete-logo-01.png" alt="Anderson Design logo"></a>
+        </div>
     </header>
     <nav>
         <ul>
@@ -29,19 +33,48 @@
 
     <main>
         <h1>Products</h1>
-        <div class="blob"></div>
-        <h2 style="text-align: center;">Sorry!</h2>
-        <p style="text-align: center;">We unfortunately don't have any products right now, but keep an eye out for future drops!</p>
+        <div class="card">
+            <img src="images/sticker_mockup.jpg" alt="Sticker with Anderson Design Logo" style="width:100%">
+            <h2>Logo Sticker</h2>
+            <p class="price">$1.99</p>
+            <p>A 3in Round Sticker,<br>to add a little pizazz to your laptop or watter bottle</p>
+            <h3><button>Add to Cart</button></h3>
+        </div>
+        <div class="card">
+            <img src="images/tote_mockup.jpg" alt="Sticker with Anderson Design Logo" style="width:100%">
+            <h2>Logo Tote Bag</h2>
+            <p class="price">$4.99</p>
+            <p>A Canvas Tote Bag,<br>to carry all your things in the most fashionable way</p>
+            <h3><button>Add to Cart</button></h3>
+        </div>
+        <div class="card">
+            <img src="images/mug_mockup.jpg" alt="Sticker with Anderson Design Logo" style="width:100%">
+            <h2>Logo Mug</h2>
+            <p class="price">$9.99</p>
+            <p>A 11oz Ceramic Mug,<br>to hold your cup o' joe in the morn (or whenever, we don't judge)</p>
+            <h3><button>Add to Cart</button></h3>
+        </div>
+        <div class="card">
+            <img src="images/shirt_mockup.png" alt="Sticker with Anderson Design Logo" style="width:100%">
+            <h2>Logo T-Shirt</h2>
+            <p class="price">$19.99</p>
+            <p>A Unisex Printed T-Shirt,<br>to display your support loud and proud</p>
+            <h3><button>Add to Cart</button></h3>
+        </div>
         <hr>
-        <h2 style="text-align: center">Make a Donation!</h2>
-        <p style="text-align: center">Help us keep the lights on and create designs you love...</p>
-        <p style="text-align: center"><a href="#" class="button">Donate Now!</a></p>
+        <div class="centered_content_box">
+            <h2>Make a Donation!</h2>
+            <p>Help us keep the lights on and create designs you love...</p>
+            <h3><a href="#" class="button">Donate Now!</a></h3>
+        </div>
     </main>
 
     <div class="clearfix"></div>
 
     <footer>
-        <p>2024 Copyright, Anderson Design | <a href="contact.html">Contact Me</a></p>
+        <div class="centered_content_box">
+            <p>2024 Copyright, Anderson Design | <a href="contact.html">Contact Me</a></p>
+        </div>
     </footer>
 </div>
 </body>

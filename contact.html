@@ -59,9 +59,12 @@
                 <input type="text" id="email" name="email"><br>
                 <label for="notes">Notes:</label>
                 <input type="text" id="notes" name="notes"><br>
-                <a href="success.html">
-                <input type="submit">
-                </a>
+                <input type="submit" onClick="myFunction()">
+                <script>
+                    function myFunction() {
+                        window.location.href="success.html";
+                    }
+                </script>
             </form>
         </div>
     </main>

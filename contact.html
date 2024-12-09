@@ -52,19 +52,14 @@
                     <td>5555 Address St. - City, ST 66666</td>
                 </tr>
             </table>
-            <form>
+            <form name="contactFnetlify" data-netlify="true" action="success.html" method="post" enctype="multipart/form-data">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name"><br>
                 <label for="email">E-mail:</label>
                 <input type="text" id="email" name="email"><br>
                 <label for="notes">Notes:</label>
                 <input type="text" id="notes" name="notes"><br>
-                <input type="submit" onClick="myFunction()">
-                <script>
-                    function myFunction() {
-                        window.location.href="success.html";
-                    }
-                </script>
+                <input type="submit" value="Submit">
             </form>
         </div>
     </main>
